@@ -20,4 +20,3 @@ public class HelloService {
         return MessageEntity.response(null, APIResponseStatus.MEX_01, HttpStatus.BAD_REQUEST);
     }
 }
-

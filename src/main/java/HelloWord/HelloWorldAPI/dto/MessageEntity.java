@@ -50,4 +50,3 @@ public class MessageEntity<T> {
         return Objects.hash(status, httpStatus, message, internalCode);
     }
 }
-
