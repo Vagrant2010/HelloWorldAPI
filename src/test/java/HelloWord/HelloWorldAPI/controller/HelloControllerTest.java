@@ -78,3 +78,4 @@ class HelloControllerTest {
         response.andExpect(MockMvcResultMatchers.jsonPath("$.data").isEmpty()); //This to verify that path is null
     }
 }
+
